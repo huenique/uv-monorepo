@@ -1,4 +1,4 @@
-FROM  --platform=arm64 jhginn/devcontainer:ubuntu2204-pyuv311-20250307-just
+FROM jhginn/devcontainer:ubuntu2204-pyuv311-20250307-just
 
 ENV RUFF_CACHE_DIR=$HOME/workspace/.cache/ruff
 ENV MYPY_CACHE_DIR=$HOME/workspace/.cache/mypy
